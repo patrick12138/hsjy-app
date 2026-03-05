@@ -1,49 +1,69 @@
-# 简介
-> 红色教育 webapp
+# HSJY App
 
-# 开发
+> Web application for red education content.
 
-```shell
-# 克隆项目
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
+## Introduction
+
+HSJY App is a Vue-based web application for red education resources, including news, knowledge pages, and user features.
+
+## Getting Started
+
+### Clone the project
+
+```bash
 git clone git@gitee.com:patrick12138/hsjy-app.git
-# 进入目录
 cd hsjy-app
-# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
-# 启动服务
-npm run serve
-
-# 也可以使用yarn安装依赖
-yarn add
-# 启动服务
-yarn run serve
 ```
 
-# 发布
+### Install dependencies
 
-```shell
+Using npm:
+
+```bash
+# If npm is slow, use a mirror registry
+npm install --registry=https://registry.npmmirror.com
+```
+
+Using yarn:
+
+```bash
+yarn install
+```
+
+### Run in development
+
+Using npm:
+
+```bash
+npm run serve
+```
+
+Using yarn:
+
+```bash
+yarn serve
+```
+
+## Build for production
+
+```bash
 npm run build
 ```
 
-# 移动端适配
+## Mobile adaptation
 
-+ https://antm-js.gitee.io/vantui/#/use-in-react
+- https://antm-js.gitee.io/vantui/#/use-in-react
 
-# 前台地址
-+ http://jy.52kfw.cn/
+## Frontend
 
-## 前台账户
-+ admin
-+ admin
+- URL: http://jy.52kfw.cn/
+- Account: `admin`
+- Password: `admin`
 
----
+## Backend admin
 
-# 后台地址
-+ http://jyadmin.52kfw.cn/
-
-## 前台账户
-+ super@admin.com
-+ admin88
-
-
-
+- URL: http://jyadmin.52kfw.cn/
+- Account: `super@admin.com`
+- Password: `admin88`
